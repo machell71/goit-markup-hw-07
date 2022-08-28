@@ -18,37 +18,34 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
     <!-- heder -->
     <header class="heder">
-      <div class="container">
-        <nav class="nav">
-          <a href="/" class="logo">Web<span class="web">Studio</span></a>
-          <ul class="nav-list list">
-            <li class="nav-item">
-              <a href="./index.html" class="link studio">Студия</a>
+      <div class="container heder__container">
+        <nav class="navigation">
+          <a href="/" class="logo heder__logo ">Web<span class="heder__web">Studio</span></a>
+          <ul class="navigation__list list">
+            <li class="navigation__item">
+              <a href="./index.html" class="navigation__link link">Студия</a></li>
+            <li class="navigation__item">
+              <a href="" class="navigation__link navigation__link--current-portfolio current link">Портфолио</a>
             </li>
-            <li class="nav-item">
-              <a href="" class="link portfolio current">Портфолио</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="link contacts">Контакты</a>
-            </li>
+            <li class="navigation__item"><a href="" class="navigation__link link">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="connection-list list">
+        <ul class="connection list">
           <li>
-            <a href="mailto:info@devstudio.com" class="connection-link link">
-              <svg class="connection-icon" width="16" height="12">
+            <a href="mailto:info@devstudio.com" class="connection__link link">
+              <svg class="connection__icon" width="16" height="12">
                 <use href="./images/symbol-defs.svg#icon-envelope"></use></svg>info@devstudio.com
             </a>
           </li>
           <li>
-            <a href="tel:+380961111111" class="link tel-heder">
-              <svg class="connection-icon" width="10" height="16">
-                <use href="./images/symbol-defs.svg#icon-smartphone"></use></svg>+38 096 111 11 11</a
-            >
+            <a href="tel:+380961111111" class="connection__link link connection-tel">
+              <svg class="connection__icon" width="10" height="16">
+                <use href="./images/symbol-defs.svg#icon-smartphone"></use></svg>+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -288,7 +285,7 @@
       <p class="footer-title ">Подпишитесь на рассылку</p>
       <form class="footer-forma-form">
         <input type="email" name="footer-email" class="input-footer-forma" placeholder="E-mail">
-        <button type="submit" name="footer-button" class="button-footer-forma">Подписаться<svg class="icon-form" width="24" height="24"><use href="./images/symbol-defs.svg#icon-icon-send"></use></svg></button>
+        <button type="submit" name="footer-button" class="button-footer-forma btn">Подписаться<svg class="icon-form" width="24" height="24"><use href="./images/symbol-defs.svg#icon-icon-send"></use></svg></button>
       </form>
     </div>
       </div>
